@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "appName": "AutoInstaller",
+  "channel": "stable",
+  "version": "2.14.0",
+  "displayVersion": "v2.14.0",
+  "releaseDate": "2026-05-23",
+  "mandatory": false,
+  "minimumSupportedVersion": "2.0.0",
+  "downloadUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.14.0/AutoInstallerSetup-v2.14.0.exe",
+  "sha256": "",
+  "fileName": "AutoInstallerSetup-v2.14.0.exe",
+  "fileSizeBytes": 0,
+  "releaseNotesUrl": "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
+  "homepageUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets",
+  "notes": [
+    "Napló exportálása mentőablakkal.",
+    "Érthetőbb frissítési hibák és Mit tehetsz most? segítség.",
+    "Újraindítást igénylő frissítések külön állapotot kapnak."
+  ]
+}

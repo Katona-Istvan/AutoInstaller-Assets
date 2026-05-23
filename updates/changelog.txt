@@ -1,0 +1,12 @@
+AutoInstaller frissítési napló
+==============================
+
+v2.14.0 - 2026-05-23
+--------------------
+- Új: a Beállítások oldalon a napló exportálható `.txt` fájlba.
+- Új: a Frissítések oldalon a sikertelen frissítésekhez rövid, érthető "Mit tehetsz most?" segítség jelenik meg.
+- Javítás: az újraindítást igénylő frissítések külön állapotot kapnak.
+- Javítás: a frissítési hibák szövege kevésbé technikai, könnyebben érthető.
+
+Megjegyzés:
+Ez a fájl a GitHub alapú önfrissítő rendszerhez készült. A program később ezt a fájlt tudja megjeleníteni változáslistaként.
