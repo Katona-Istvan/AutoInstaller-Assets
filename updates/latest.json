@@ -1,21 +1,22 @@
 {
-  "schemaVersion": 1,
-  "appName": "AutoInstaller",
-  "channel": "stable",
-  "version": "2.14.0",
-  "displayVersion": "v2.14.0",
-  "releaseDate": "2026-05-23",
-  "mandatory": false,
-  "minimumSupportedVersion": "2.0.0",
-  "downloadUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.14.0/AutoInstallerSetup-v2.14.0.exe",
-  "sha256": "",
-  "fileName": "AutoInstallerSetup-v2.14.0.exe",
-  "fileSizeBytes": 0,
-  "releaseNotesUrl": "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
-  "homepageUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets",
-  "notes": [
-    "Napló exportálása mentőablakkal.",
-    "Érthetőbb frissítési hibák és Mit tehetsz most? segítség.",
-    "Újraindítást igénylő frissítések külön állapotot kapnak."
-  ]
+    "schemaVersion":  1,
+    "appName":  "AutoInstaller",
+    "channel":  "stable",
+    "version":  "2.18.1",
+    "displayVersion":  "v2.18.1",
+    "releaseDate":  "2026-05-27",
+    "mandatory":  false,
+    "minimumSupportedVersion":  "2.0.0",
+    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.18.1/AutoInstallerSetup-v2.18.1.exe",
+    "sha256":  "BBD185AEE95AD0AA523CB94197C1B9EEB56CC6DFD361629A3A28C701B30E00C9",
+    "fileName":  "AutoInstallerSetup-v2.18.1.exe",
+    "fileSizeBytes":  30109965,
+    "manifestUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
+    "releaseNotesUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
+    "homepageUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets",
+    "notes":  [
+                  "A frissítés utáni visszaellenőrzés már a ténylegesen telepített verziót is megnézi.",
+                  "Ha egy telepítő hibakóddal tér vissza, de a program mégis frissült, az AutoInstaller sikeresnek jelöli.",
+                  "Elavult winget frissítési lista esetén kevesebb lesz a hamis sikertelen állapot."
+              ]
 }
