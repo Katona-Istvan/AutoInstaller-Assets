@@ -1,42 +1,35 @@
-# AutoInstaller frissítési csatorna
+# AutoInstaller frissítési fájlok
 
-Ez a mappa az AutoInstaller GitHub alapú önfrissítő rendszeréhez tartozik.
+Ezeket a fájlokat kell az `AutoInstaller-Assets` repó `updates` mappájába feltölteni:
 
-## Fájlok
+- `latest.json`
+- `changelog.txt`
+- `README.md`
 
-- `latest.json`: a program ezt olvassa be, hogy megtudja, van-e új verzió.
-- `changelog.txt`: emberi nyelvű változáslista, amit a program később meg tud jeleníteni.
-- `README.md`: rövid leírás a frissítési csatorna használatához.
+## Aktuális kiadás
 
-## Feltöltés GitHubra
+Tag: `v2.19.0`
 
-Ezeket a fájlokat a `Katona-Istvan/AutoInstaller-Assets` repóba kell feltölteni ugyanilyen útvonallal:
+Telepítő fájl:
 
-```text
-updates/latest.json
-updates/changelog.txt
-updates/README.md
-```
+`AutoInstallerSetup-v2.19.0.exe`
 
-## Telepítő feltöltése
+GitHub Release letöltési link:
 
-A telepítőt GitHub Release assetként érdemes feltölteni.
+`https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.19.0/AutoInstallerSetup-v2.19.0.exe`
 
-Példa release:
+SHA256:
 
-```text
-Tag: v2.18.1
-Fájl: AutoInstallerSetup-v2.18.1.exe
-```
+`B1376F9D145BFB27BB041D56A09BA2D9DD0A637FFAAABFFEE18D6879E52CBB3D`
 
-Ha a telepítő fájlneve változik, a `latest.json` fájlban a `downloadUrl` és `fileName` mezőt is frissíteni kell. A `Installer/Build-Release.ps1` script ezt helyben automatikusan frissíti.
+Fájlméret:
 
-## SHA256
+`30112281`
 
-A `sha256` mezőbe a telepítő ellenőrző összege kerül. Ez azért kell, hogy az önfrissítő később ellenőrizni tudja: pontosan azt a telepítőt töltötte-e le, amit kiadtál.
+## Fontos sorrend
 
-PowerShell példa:
+1. Először készüljön el a GitHub Release `v2.19.0` néven.
+2. A release assetek közé kerüljön fel az `AutoInstallerSetup-v2.19.0.exe`.
+3. Ezután menjen fel az `updates/latest.json` és `updates/changelog.txt`.
 
-```powershell
-Get-FileHash .\AutoInstallerSetup-v2.18.1.exe -Algorithm SHA256
-```
+Ha a `latest.json` előbb kerül fel, mint maga a release asset, akkor a régi program már látja az új verziót, de még nem tudja letölteni.

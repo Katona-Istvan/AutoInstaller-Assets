@@ -1,6 +1,13 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.19.0 - 2026-05-27
+--------------------
+- Új: az AutoInstaller frissítés ablakban már közvetlenül indítható a frissítés telepítése.
+- Új: a program letölti a GitHub Release-ben lévő telepítőt, majd fájlméret és SHA256 alapján ellenőrzi.
+- Új: sikeres ellenőrzés után a frissítő telepítő csendes módban indul, az AutoInstaller pedig bezáródik a frissítés idejére.
+- Javítás: a frissítés ablak gombjai már egyedi feliratot kaphatnak, például Frissítés telepítése és Most nem.
+
 v2.18.1 - 2026-05-27
 --------------------
 - Javítás: a frissítés utáni visszaellenőrzés már a ténylegesen telepített verziót is megnézi.
@@ -12,69 +19,3 @@ v2.18.0 - 2026-05-27
 - Új: a kiadott programadatbázis és leírás-adatbázis titkosított `.aidb` adatcsomagból töltődik.
 - Új: a kiadási script automatikusan elkészíti a `Programs.aidb` és `ProgramDescriptions.aidb` fájlokat a fejlesztői JSON-okból.
 - Javítás: a telepítőből kikerülnek a nyers `Programs.json` és `ProgramDescriptions.json` fájlok, így a felhasználó nem tudja egyszerűen megnyitni és kimásolni őket.
-
-v2.17.3 - 2026-05-27
---------------------
-- Javítás: eltávolításkor az AutoInstaller most már törli a Program Files alatti `Assets\Icons` ikon-cache mappát.
-- Javítás: friss telepítés előtt a régi ikonmappa kitakarításra kerül, így nem maradnak ott korábbi verzióból származó ikonok.
-
-v2.17.2 - 2026-05-27
---------------------
-- Javítás: a telepítő végén bepipált AutoInstaller indítás már nem sima felhasználói módból próbálja elindítani az admin jogosultságot kérő alkalmazást.
-- Javítás: megszűnik a telepítő végi `CreateProcess; kód: 740` hiba.
-
-v2.17.1 - 2026-05-27
---------------------
-- Javítás: a kiadási script már a felhasználói Inno Setup telepítést is megtalálja a `LocalAppData\Programs\Inno Setup 6` útvonalon.
-- Javítás: a telepítő generálás nem csak a `Program Files` alatti Inno Setup telepítésre támaszkodik.
-
-v2.17.0 - 2026-05-27
---------------------
-- Új: elkészült az Inno Setup alapú telepítő script.
-- Új: elkészült a Release buildet, telepítési staging mappát és opcionálisan telepítő EXE-t készítő segédscript.
-- Új: a kiadási script helyben frissíti a `latest.json` verzió-, letöltési-, fájlméret- és SHA256 mezőit, ha elkészült a telepítő.
-
-v2.16.4 - 2026-05-25
---------------------
-- Javítás: a Beállítások oldalon a Mégsem és Beállítások mentése gomb átkerült a fő fül-sáv jobb oldalára.
-- Javítás: az alsó mentési sáv kikerült, így több függőleges hely marad a beállítások tartalmának.
-- UX: a mentés és elvetés gomb továbbra is csak akkor aktív, ha ténylegesen módosult valami.
-
-v2.16.3 - 2026-05-25
---------------------
-- Javítás: a Beállítások teljesítmény módjából kikerült egy régi, már nem futó kódrész.
-- Javítás: a GitHub frissítési fájlok ékezetes szövege újra rendesen olvasható.
-- Javítás: az online frissítési manifest verziója a jelenlegi alkalmazásverzióhoz igazodik.
-
-v2.16.2 - 2026-05-25
---------------------
-- Javítás: a Light téma kikerült a választható sablonok közül.
-- Új: bekerült az Arctic téma, amely világosabb, hideg kék-szürke hangulatot ad, de nem vakító fehér.
-- Javítás: ha egy régi beállításban Light téma volt mentve, induláskor automatikusan Arctic témára vált.
-
-v2.16.1 - 2026-05-25
---------------------
-- Javítás: a Beállítások oldalon a navigációs keretek az aktuális témát követik.
-- Javítás: a színkártyák és kompakt legördülők keretei is téma-követő színeket kaptak.
-
-v2.16.0 - 2026-05-24
---------------------
-- Új: saját AutoInstaller stílusú felugró ablakok a Windows alap MessageBox helyett.
-- Új: a felugró üzenetek az aktív témához igazodnak, beleértve az egyedi színeket is.
-- Új: Ocean, Forest, Graphite és Rose téma sablonok.
-
-v2.15.0 - 2026-05-24
---------------------
-- Új: GitHub `latest.json` alapú AutoInstaller saját frissítés-ellenőrzés.
-- Új: a Beállítások oldalon külön `AutoInstaller frissítés` gomb.
-- Új: a program összeveti a saját verzióját az online manifestben lévő verzióval.
-
-v2.14.0 - 2026-05-23
---------------------
-- Új: a Beállítások oldalon a napló exportálható `.txt` fájlba.
-- Új: a Frissítések oldalon a sikertelen frissítésekhez rövid, érthető "Mit tehetsz most?" segítség jelenik meg.
-- Javítás: az újraindítást igénylő frissítések külön állapotot kapnak.
-- Javítás: a frissítési hibák szövege kevésbé technikai, könnyebben érthető.
-
-Megjegyzés:
-Ez a fájl a GitHub alapú önfrissítő rendszerhez készült. A program később ezt a fájlt tudja megjeleníteni változáslistaként.

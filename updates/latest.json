@@ -1,22 +1,22 @@
 {
-    "schemaVersion":  1,
-    "appName":  "AutoInstaller",
-    "channel":  "stable",
-    "version":  "2.18.1",
-    "displayVersion":  "v2.18.1",
-    "releaseDate":  "2026-05-27",
-    "mandatory":  false,
-    "minimumSupportedVersion":  "2.0.0",
-    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.18.1/AutoInstallerSetup-v2.18.1.exe",
-    "sha256":  "BBD185AEE95AD0AA523CB94197C1B9EEB56CC6DFD361629A3A28C701B30E00C9",
-    "fileName":  "AutoInstallerSetup-v2.18.1.exe",
-    "fileSizeBytes":  30109965,
-    "manifestUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
-    "releaseNotesUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
-    "homepageUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets",
-    "notes":  [
-                  "A frissítés utáni visszaellenőrzés már a ténylegesen telepített verziót is megnézi.",
-                  "Ha egy telepítő hibakóddal tér vissza, de a program mégis frissült, az AutoInstaller sikeresnek jelöli.",
-                  "Elavult winget frissítési lista esetén kevesebb lesz a hamis sikertelen állapot."
-              ]
+  "schemaVersion": 1,
+  "appName": "AutoInstaller",
+  "channel": "stable",
+  "version": "2.19.0",
+  "displayVersion": "v2.19.0",
+  "releaseDate": "2026-05-27",
+  "mandatory": false,
+  "minimumSupportedVersion": "2.0.0",
+  "downloadUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.19.0/AutoInstallerSetup-v2.19.0.exe",
+  "sha256": "B1376F9D145BFB27BB041D56A09BA2D9DD0A637FFAAABFFEE18D6879E52CBB3D",
+  "fileName": "AutoInstallerSetup-v2.19.0.exe",
+  "fileSizeBytes": 30112281,
+  "manifestUrl": "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
+  "homepageUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets",
+  "notes": [
+    "Az AutoInstaller frissítés ablakból már közvetlenül indítható a frissítés telepítése.",
+    "A program letölti a GitHub Release telepítőt, majd SHA256 alapján ellenőrzi.",
+    "Sikeres ellenőrzés után a telepítő elindul, az AutoInstaller pedig bezáródik a frissítés idejére."
+  ]
 }
