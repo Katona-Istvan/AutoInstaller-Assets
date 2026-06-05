@@ -1,6 +1,13 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.19.1 - 2026-06-05
+--------------------
+- Új: az AutoInstaller frissítés közben már saját, témázott folyamatablak mutatja a letöltés és ellenőrzés állapotát.
+- Javítás: sikertelen letöltésnél és biztonsági ellenőrzési hibánál érthetőbb üzenet jelenik meg.
+- Javítás: a frissítés naplója szebben írja le, pontosan mi történt a letöltéssel és ellenőrzéssel.
+- Javítás: eltávolítás után az üres `C:\Program Files\AutoInstaller` mappa is törlődik.
+
 v2.19.0 - 2026-05-27
 --------------------
 - Új: az AutoInstaller frissítés ablakban már közvetlenül indítható a frissítés telepítése.
