@@ -1,6 +1,13 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.20.0 - 2026-07-01
+--------------------
+- Javítás: a Google Play Games winget-verzióeltérése már nem okoz hamis sikertelen frissítést, ha a telepítő sikeresen lefutott.
+- Javítás: az ismert hibás Google Play Games visszaellenőrzés 24 órára elrejtésre kerül, újraindítás után is.
+- Új: a tálcaikon vezérlőpult nagyobb, modernebb, ikonos menüt kapott.
+- Info: a Frissítések oldal a winget frissítési listájából dolgozik, a saját adatbázis csak ikonhoz és programkártyához próbál párosítást adni.
+
 v2.19.1 - 2026-06-05
 --------------------
 - Új: az AutoInstaller frissítés közben már saját, témázott folyamatablak mutatja a letöltés és ellenőrzés állapotát.

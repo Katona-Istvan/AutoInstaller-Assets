@@ -2,21 +2,21 @@
     "schemaVersion":  1,
     "appName":  "AutoInstaller",
     "channel":  "stable",
-    "version":  "2.19.1",
-    "displayVersion":  "v2.19.1",
-    "releaseDate":  "2026-06-05",
+    "version":  "2.20.0",
+    "displayVersion":  "v2.20.0",
+    "releaseDate":  "2026-07-01",
     "mandatory":  false,
     "minimumSupportedVersion":  "2.0.0",
-    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.19.1/AutoInstallerSetup-v2.19.1.exe",
-    "sha256":  "F935F3D697A9B43E116C131458C9536A708E14528BF4CBABDBEC730B367894B3",
-    "fileName":  "AutoInstallerSetup-v2.19.1.exe",
-    "fileSizeBytes":  30116358,
+    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.20.0/AutoInstallerSetup-v2.20.0.exe",
+    "sha256":  "BF7B0973981C67360D8F94B0C4C747BAC98BB50D42E9F13D9B768511EEFF4258",
+    "fileName":  "AutoInstallerSetup-v2.20.0.exe",
+    "fileSizeBytes":  30119146,
     "manifestUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
     "releaseNotesUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
     "homepageUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets",
     "notes":  [
-                  "Az AutoInstaller frissítés közben már saját, témázott folyamatablak mutatja a letöltés és ellenőrzés állapotát.",
-                  "Sikertelen letöltésnél és biztonsági ellenőrzési hibánál érthetőbb üzenet jelenik meg.",
-                  "Eltávolítás után az üres AutoInstaller telepítési mappa is törlődik."
+                  "A Google Play Games winget-verzióeltérése már nem okoz hamis sikertelen frissítést.",
+                  "Az ismert hibás Google Play Games visszaellenőrzés 24 órára elrejtésre kerül, újraindítás után is.",
+                  "A tálcaikon vezérlőpult nagyobb, modernebb, ikonos menüt kapott."
               ]
 }
