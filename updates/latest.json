@@ -2,21 +2,23 @@
     "schemaVersion":  1,
     "appName":  "AutoInstaller",
     "channel":  "stable",
-    "version":  "2.20.0",
-    "displayVersion":  "v2.20.0",
-    "releaseDate":  "2026-07-01",
+    "version":  "2.21.0",
+    "displayVersion":  "v2.21.0",
+    "releaseDate":  "2026-07-05",
     "mandatory":  false,
     "minimumSupportedVersion":  "2.0.0",
-    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.20.0/AutoInstallerSetup-v2.20.0.exe",
-    "sha256":  "BF7B0973981C67360D8F94B0C4C747BAC98BB50D42E9F13D9B768511EEFF4258",
-    "fileName":  "AutoInstallerSetup-v2.20.0.exe",
-    "fileSizeBytes":  30119146,
+    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.21.0/AutoInstallerSetup-v2.21.0.exe",
+    "sha256":  "ABF3856C5E01A81423E0A6E5DB7096465AB47E6624D12D3C43308DF92CAEE603",
+    "fileName":  "AutoInstallerSetup-v2.21.0.exe",
+    "fileSizeBytes":  30124925,
     "manifestUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
     "releaseNotesUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
     "homepageUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets",
     "notes":  [
-                  "A Google Play Games winget-verzióeltérése már nem okoz hamis sikertelen frissítést.",
-                  "Az ismert hibás Google Play Games visszaellenőrzés 24 órára elrejtésre kerül, újraindítás után is.",
-                  "A tálcaikon vezérlőpult nagyobb, modernebb, ikonos menüt kapott."
+                  "Új megjelenési témák: Aurora, Ember, Royal, Cyber és Midnight.",
+                  "Az Arctic téma kikerült, a régi Light/Arctic beállítások automatikusan Dark témára váltanak.",
+                  "A Beállítások / Színek oldal kompaktabb, kártyásabb szerkesztőfelületet kapott.",
+                  "A programkártyák leírás görgősávja és a tálcaikon vezérlőpultja már jobban igazodik az aktuális témához.",
+                  "A Programok oldal keresőfejléce természetesebb szöveget kapott."
               ]
 }

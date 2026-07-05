@@ -1,6 +1,16 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.21.0 - 2026-07-05
+--------------------
+- Új: bekerült öt új megjelenési téma: Aurora, Ember, Royal, Cyber és Midnight.
+- Változás: az Arctic téma kikerült a választható témák közül; a régi Light/Arctic beállításokat a program automatikusan Dark témára tereli vissza.
+- UI: a Beállítások / Színek oldal kompaktabb, kártyásabb stílusmentő és palettaszerkesztő felületet kapott.
+- UI: a programkártyák hátoldali leírás görgősávja saját, témához igazodó megjelenést kapott.
+- UI: a tálcaikon jobbklikkes vezérlőpultja már az aktuális AutoInstaller téma színeit használja.
+- UI: a Programok oldal keresőfejléce természetesebb megfogalmazást kapott: Programkereső, keresés, szűrés és gyors telepítés.
+- Verzió: az alkalmazás és a telepítő v2.21.0 verzióra frissült.
+
 v2.20.0 - 2026-07-01
 --------------------
 - Javítás: a Google Play Games winget-verzióeltérése már nem okoz hamis sikertelen frissítést, ha a telepítő sikeresen lefutott.
