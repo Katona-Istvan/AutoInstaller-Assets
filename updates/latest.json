@@ -1,24 +1,20 @@
 {
     "schemaVersion":  1,
     "appName":  "AutoInstaller",
-    "channel":  "stable",
-    "version":  "2.21.0",
-    "displayVersion":  "v2.21.0",
-    "releaseDate":  "2026-07-05",
+    "channel":  "paused",
+    "version":  "0.0.0",
+    "displayVersion":  "Nincs publikus kiadás",
+    "releaseDate":  "2026-08-15",
     "mandatory":  false,
     "minimumSupportedVersion":  "2.0.0",
-    "downloadUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.21.0/AutoInstallerSetup-v2.21.0.exe",
-    "sha256":  "ABF3856C5E01A81423E0A6E5DB7096465AB47E6624D12D3C43308DF92CAEE603",
-    "fileName":  "AutoInstallerSetup-v2.21.0.exe",
-    "fileSizeBytes":  30124925,
+    "downloadUrl":  "",
+    "sha256":  "",
+    "fileName":  "",
+    "fileSizeBytes":  0,
     "manifestUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
     "releaseNotesUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
     "homepageUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets",
     "notes":  [
-                  "Új megjelenési témák: Aurora, Ember, Royal, Cyber és Midnight.",
-                  "Az Arctic téma kikerült, a régi Light/Arctic beállítások automatikusan Dark témára váltanak.",
-                  "A Beállítások / Színek oldal kompaktabb, kártyásabb szerkesztőfelületet kapott.",
-                  "A programkártyák leírás görgősávja és a tálcaikon vezérlőpultja már jobban igazodik az aktuális témához.",
-                  "A Programok oldal keresőfejléce természetesebb szöveget kapott."
+                  "A nyilvános tesztkiadások ideiglenesen szünetelnek a csomag- és licencrendszer lezárásáig."
               ]
 }
