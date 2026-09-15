@@ -8,28 +8,28 @@ Ezeket a fájlokat kell az `AutoInstaller-Assets` repó `updates` mappájába fe
 
 ## Aktuális kiadás
 
-Tag: `v2.19.1`
+Tag: `v2.61.1`
 
 Telepítő fájl:
 
-`AutoInstallerSetup-v2.19.1.exe`
+`AutoInstallerSetup-v2.61.1.exe`
 
 GitHub Release letöltési link:
 
-`https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.19.1/AutoInstallerSetup-v2.19.1.exe`
+`https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.61.1/AutoInstallerSetup-v2.61.1.exe`
 
 SHA256:
 
-`F935F3D697A9B43E116C131458C9536A708E14528BF4CBABDBEC730B367894B3`
+`F48CBBA3336F4973347CC2C109E3E92F9204E6CED657CD9395B35347067BC5E3`
 
 Fájlméret:
 
-`30116358`
+`30897407`
 
 ## Fontos sorrend
 
-1. Először készüljön el a GitHub Release `v2.19.1` néven.
-2. A release assetek közé kerüljön fel az `AutoInstallerSetup-v2.19.1.exe`.
+1. Először készüljön el a GitHub Release `v2.61.1` néven.
+2. A release assetek közé kerüljön fel az `AutoInstallerSetup-v2.61.1.exe`.
 3. Ezután menjen fel az `updates/latest.json` és `updates/changelog.txt`.
 
 Ha a `latest.json` előbb kerül fel, mint maga a release asset, akkor a régi program már látja az új verziót, de még nem tudja letölteni.
