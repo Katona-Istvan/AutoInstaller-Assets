@@ -1,6 +1,16 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.61.1 - 2026-09-15
+--------------------
+- Javítás: mentett helyi profil közvetlenül szerkeszthető a profilkönyvtárból, majd ugyanabba a profilba menthető vissza.
+- Új: a mentett profil mellett külön Drive-frissítés gomb került be, így a már feltöltött felhős profil kézzel is frissíthető.
+- Javítás: a Drive-tárhely látható és rejtett mód közti váltása mindkét irányban átviszi a meglévő adatokat, folyamatjelzéssel.
+- Javítás: az üres almappákat is megőrzi a fájlmentés és a visszaállítás.
+- Javítás: alkalmazás eltávolítása után is kérhető sikeres műveleti Windows értesítés.
+- Javítás: a fiók- és licencoldal félrevezető értesítésteszttel kapcsolatos elemei kikerültek.
+- Javítás: a Release csomag tartalmazza a Google Drive kliensazonosítót és az értesítésekhez szükséges futtatási függőséget.
+
 v2.21.0 - 2026-07-05
 --------------------
 - Új: bekerült öt új megjelenési téma: Aurora, Ember, Royal, Cyber és Midnight.
