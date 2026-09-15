@@ -1,20 +1,20 @@
 {
-    "schemaVersion":  1,
-    "appName":  "AutoInstaller",
-    "channel":  "paused",
-    "version":  "0.0.0",
-    "displayVersion":  "Nincs publikus kiadás",
-    "releaseDate":  "2026-08-15",
-    "mandatory":  false,
-    "minimumSupportedVersion":  "2.0.0",
-    "downloadUrl":  "",
-    "sha256":  "",
-    "fileName":  "",
-    "fileSizeBytes":  0,
-    "manifestUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
-    "releaseNotesUrl":  "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
-    "homepageUrl":  "https://github.com/Katona-Istvan/AutoInstaller-Assets",
-    "notes":  [
-                  "A nyilvános tesztkiadások ideiglenesen szünetelnek a csomag- és licencrendszer lezárásáig."
-              ]
+  "schemaVersion": 1,
+  "appName": "AutoInstaller",
+  "channel": "paused",
+  "version": "2.61.1",
+  "displayVersion": "v2.61.1",
+  "releaseDate": "2026-09-15",
+  "mandatory": false,
+  "minimumSupportedVersion": "2.0.0",
+  "downloadUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets/releases/download/v2.61.1/AutoInstallerSetup-v2.61.1.exe",
+  "sha256": "F48CBBA3336F4973347CC2C109E3E92F9204E6CED657CD9395B35347067BC5E3",
+  "fileName": "AutoInstallerSetup-v2.61.1.exe",
+  "fileSizeBytes": 30897407,
+  "manifestUrl": "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/latest.json",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/Katona-Istvan/AutoInstaller-Assets/main/updates/changelog.txt",
+  "homepageUrl": "https://github.com/Katona-Istvan/AutoInstaller-Assets",
+  "notes": [
+    "A nyilvános tesztkiadások ideiglenesen szünetelnek a csomag- és licencrendszer lezárásáig."
+  ]
 }
