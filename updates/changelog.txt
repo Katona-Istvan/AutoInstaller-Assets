@@ -1,6 +1,11 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.61.2 - 2026-09-15
+--------------------
+- Javítás: a profilkönyvtárban kiválasztott mentett profil előnézete ismét megjelenik a programlistával.
+- Új: minden helyi profilkártyán közvetlen Törlés ikon található, megerősítő kérdéssel.
+
 v2.61.1 - 2026-09-15
 --------------------
 - Javítás: mentett helyi profil közvetlenül szerkeszthető a profilkönyvtárból, majd ugyanabba a profilba menthető vissza.
