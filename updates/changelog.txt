@@ -1,6 +1,13 @@
 AutoInstaller frissítési napló
 ==============================
 
+v2.61.3 - 2026-09-26
+--------------------
+- Javítás: a Gépeim nézetben kiválasztott géphez csak annak Google Drive-ba mentett profiljai jelennek meg.
+- Javítás: a profil betöltése egyértelműen az éppen használt gépre történik.
+- Javítás: a WinGet frissítési folyamat felhasználói állapotüzenetei magyar felületen következetesen magyarok.
+- Változás: a hosszabb telepítési szakasz rövid, természetes állapotjelzést mutat.
+
 v2.61.2 - 2026-09-15
 --------------------
 - Javítás: a profilkönyvtárban kiválasztott mentett profil előnézete ismét megjelenik a programlistával.
